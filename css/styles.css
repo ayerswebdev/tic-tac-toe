@@ -1,0 +1,126 @@
+body {
+  background-color: #E0E0E0;
+  font-family: "Architects Daughter", cursive;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+#title {
+  font-size: 72px;
+}
+
+.large {
+  font-size: 144px;
+  align-self: center;
+}
+
+.medium {
+  font-size: 36px;
+  align-self: center;
+}
+
+.game-board {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.border {
+  width: 600px;
+  height: 600px;
+  background-color: #d2b48c;
+}
+
+.inner-board {
+  width: 552px;
+  height: 552px;
+  background-color: #2f4f4f;
+  position: relative;
+  left: 24px;
+  top: 24px;
+  z-index: 1;
+}
+
+#player-choice {
+  width: 552px;
+  height: 552px;
+  z-index: 10;
+  background-color: #00394c;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;;
+  align-items: center;
+  color: white;
+}
+
+#board {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  position: relative;
+  z-index: -1;
+}
+
+.cell {
+  background-color: transparent;
+  color: white;
+  height: 184px;
+  width: 184px;
+  flex-shrink: 0;
+  padding: 0;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  border-right: 6px solid white;
+}
+
+.bottom {
+  border-bottom: 6px solid white;
+}
+
+.btn {
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #d2b48c;
+  font-family: "Architects Daughter", cursive;
+  font-size: 36px;
+}
+
+#outcome {
+  width: 552px;
+  height: 552px;
+  background-color: #00394c;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#restart {
+  width: 50%;
+  margin: 0px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  font-size: 24px;
+}
+
+.fa-heart {
+  color: #ff69b4;
+}
+
+a, a:hover {
+  color: black;
+  text-decoration: underline;
+}

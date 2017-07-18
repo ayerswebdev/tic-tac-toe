@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>The Unbeatable Tic-Tac-Toe</title>
+
+    <!--Import libraries and frameworks-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Import custom fonts-->
+    <script src="https://use.fontawesome.com/589ca5c72c.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+
+    <!--Import custom CSS and JavaScript files-->
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <div class = "container-fluid">
+      <h1 class = "text-center" id = "title">FCC Tic Tac Toe Game</h1>
+      <div class = "game-board">
+        <div class = "border">
+          <div class = "inner-board">
+            <div id = "player-choice">
+              <h2 class = "text-center" id = "choice-text">Would you like to play as X or O?</h2>
+              <div id = "choice-buttons">
+                <button class = "btn" id = "X-btn">X</button>
+                <button class = "btn" id = "O-btn">O</button>
+              </div>
+            </div>
+
+            <div id = "board">
+              <div class = "cell right bottom large" id = "cell0" data-index = "0"></div>
+              <div class = "cell right bottom large" id = "cell1" data-index = "1"></div>
+              <div class = "cell bottom large" id = "cell2" data-index = "2"></div>
+              <div class = "cell right bottom large" id = "cell3" data-index = "3"></div>
+              <div class = "cell right bottom large" id = "cell4" data-index = "4"></div>
+              <div class = "cell bottom large" id = "cell5" data-index = "5"></div>
+              <div class = "cell right large" id = "cell6" data-index = "6"></div>
+              <div class = "cell right large" id = "cell7" data-index = "7"></div>
+              <div class = "cell large" id = "cell8" data-index = "8"></div>
+            </div>
+
+            <div id = "outcome">
+              <p class = "medium" id = "outcome-text"></p>
+              <button class = "btn" id = "restart">Play Again</button>
+            </div>
+
+            <div class = "text-center" id = "score"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class = "footer">Made with <i class = "fa fa-heart"></i> by <a target = "_blank" href = "https://www.linkedin.com/in/jacob-ayers">Jacob Ayers</a></div>
+  </body>
+</html>
